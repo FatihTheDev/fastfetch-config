@@ -1,0 +1,95 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "padding": {
+      "top": 0,
+      "left": 1,
+      "right": 2
+    }
+  },
+  "display": {
+    "separator": "  "
+  },
+  "modules": [
+    // Title
+    {
+      "type": "title",
+      "format": "{#1}{#}{user-name-colored}"
+    },
+    // System Information
+    {
+      "type": "custom",
+      "format": "{#1}  {#}System Information"
+    },
+    {
+      "type": "os",
+      "key": "   {#keys}󰍹 OS"
+    },
+    {
+      "type": "kernel",
+      "key": "   {#keys}󰒋 Kernel"
+    },
+    {
+      "type": "uptime",
+      "key": "   {#keys}󰅐 Uptime"
+    },
+    {
+      "type": "packages",
+      "key": "   {#keys}󰏖 Packages",
+      "format": "{all}"
+    },
+    // Desktop Environment
+    {
+      "type": "custom",
+      "format": "   {#}Desktop Environment"
+    },
+    {
+      "type": "de",
+      "key": "   {#keys}󰧨 DE"
+    },
+    {
+      "type": "wm",
+      "key": "   {#keys}󱂬 WM"
+    },
+    {
+      "type": "wmtheme",
+      "key": "   {#keys}󰉼 Theme"
+    },
+    {
+      "type": "display",
+      "key": "   {#keys}󰹑 Resolution"
+    },
+    {
+      "type": "shell",
+      "key": "   {#keys}󰞷 Shell"
+    },
+    {
+      "type": "terminalfont",
+      "key": "   {#keys}󰛖 Font"
+    },
+    // Hardware Information
+    {
+      "type": "cpu",
+      "key": "   {#keys}󰻠 CPU"
+    },
+    {
+      "type": "gpu",
+      "key": "   {#keys}󰢮 GPU"
+    },
+    {
+      "type": "memory",
+      "key": "   {#keys}󰍛 Memory"
+    },
+    {
+      "type": "disk",
+      "key": "   {#keys}󰋊 Disk (/)",
+      "folders": "/"
+    },
+    // Colors
+    {
+      "type": "colors",
+      "key": "{#separator} ",
+      "symbol": "circle"
+    },
+  ]
+}
