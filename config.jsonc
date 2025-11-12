@@ -5,9 +5,18 @@
       "top": 0,
       "left": 1,
       "right": 2
+    },
+    "type": "file",
+    "source": "~/.config/fastfetch/logo.txt",
+    "color": {
+      "1": "#964B00"
     }
   },
   "display": {
+    "color": {
+      "keys": "#964B00",
+      "title": "#964B00"
+    },
     "separator": "  "
   },
   "modules": [
@@ -23,7 +32,8 @@
     },
     {
       "type": "os",
-      "key": "   {#keys}󰍹 OS"
+      "key": "   {#keys}󰍹 OS",
+      "format": "Custom Linux x86_64"
     },
     {
       "type": "kernel",
