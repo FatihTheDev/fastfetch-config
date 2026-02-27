@@ -29,7 +29,7 @@
     // System Information
     {
       "type": "custom",
-      "format": "{#1}  {#}System Information"
+      "format": "{#1} {#}System Information"
     },
     {
       "type": "os",
@@ -51,7 +51,7 @@
     // Desktop Environment
     {
       "type": "custom",
-      "format": "   {#}Desktop Environment"
+      "format": " {#}Desktop Environment"
     },
     {
       "type": "de",
@@ -78,6 +78,10 @@
       "key": "   {#keys}󰛖 Font"
     },
     // Hardware Information
+    {
+      "type": "custom",
+      "format": " {#}Hardware Information"
+    },
     {
       "type": "cpu",
       "key": "   {#keys}󰻠 CPU"
