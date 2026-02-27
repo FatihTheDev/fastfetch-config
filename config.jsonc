@@ -29,7 +29,7 @@
     // System Information
     {
       "type": "custom",
-      "format": "{#1} {#}System Information"
+      "format": " {#}System Information"
     },
     {
       "type": "os",
