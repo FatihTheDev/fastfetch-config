@@ -9,7 +9,8 @@
     "type": "file",
     "source": "~/.config/fastfetch/logo.txt",
     "color": {
-      "1": "#964B00"
+      "1": "#964B00",
+      "2": "#964B00"
     }
   },
   "display": {
