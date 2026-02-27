@@ -91,11 +91,19 @@
       "key": "   {#keys}󰍛 Memory"
     },
     {
+      "type": "swap",
+      "key": "   {#keys}󰓡 Swap",
+      "format": "{used} / {total} ({percentage})"
+    },
+    {
       "type": "disk",
       "key": "   {#keys}󰋊 Disk (/)",
       "folders": "/"
     },
-    // Colors
+    {
+      "type": "localip",
+      "key": "   {#keys}󰈀 Local IP"
+    },
     {
       "type": "colors",
       "key": "{#separator} ",
