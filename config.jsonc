@@ -32,8 +32,7 @@
     },
     {
       "type": "os",
-      "key": "   {#keys}󰍹 OS",
-      "format": "Custom Linux x86_64"
+      "key": "   {#keys}󰍹 OS"
     },
     {
       "type": "kernel",
